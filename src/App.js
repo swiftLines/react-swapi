@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import NavBar from './components/NavBar/NavBar';
+import Starships from './pages/Starships/Starships';
+import StarshipPage from './pages/StarshipPage/StarshipPage';
 
 function App() {
+ 
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Starships /> } />
+        <Route path='/starship' element={<StarshipPage /> } />
+      </Routes>
+    </>
   );
 }
 
