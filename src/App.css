@@ -8,3 +8,21 @@
   color: white;
 }
 
+#starship-div {
+  height: 80px;
+  background-color: darkslategray;
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}

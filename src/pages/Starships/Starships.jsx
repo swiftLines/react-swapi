@@ -13,7 +13,7 @@ const Starships = (props) => {
 
   return ( 
     <>
-    <div>
+    <div className='container'>
       {starships.map((starshipName) => (
         <Link key={starshipName.index} state={{ starshipName }} 
         to='/starship'>
