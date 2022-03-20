@@ -8,6 +8,22 @@
   color: white;
 }
 
+.container {
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin: 3rem;
+}
+
+#item {
+  width: 300px;
+  text-decoration: none;
+  text-align: center;
+}
+
 #starship-div {
   height: 80px;
   background-color: darkslategray;
@@ -16,13 +32,31 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 1rem;
+  border-radius: .3rem;
+  width: 70%
 }
 
-.container {
-  gap: 10px;
+main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  flex-wrap: wrap;
+  padding-top: 10rem;
+}
+
+.block {
+  background-color: darkslategray;
+  width: fit-content;
+  border-radius: .3rem;
+  font-size: 30px;
+  padding: 1rem;
+  color: white;
+}
+
+#link {
+  color: white;
+}
+
+.results {
+  padding: 1rem;
 }

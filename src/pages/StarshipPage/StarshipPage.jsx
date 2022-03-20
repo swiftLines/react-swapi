@@ -14,14 +14,17 @@ const StarshipPage = (props) => {
 
   return ( 
     <>
-      <div>
+     <main>
+      <div className="block">
         {starshipDetails.name ? 
         <>
+        <div className="results">
           <div>Name: {starshipDetails.name}</div>
           <div>Model: {starshipDetails.model}</div>
-          <Link to={'/'}>
+          <Link id='link' to={'/'}>
             Return
           </Link>
+        </div>
         </>
           :
           <>
@@ -29,6 +32,7 @@ const StarshipPage = (props) => {
         </>
         }
       </div>
+     </main> 
     </>
    );
 }
